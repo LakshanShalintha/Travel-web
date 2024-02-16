@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <style>
+        body{
+            background-color: rgb(228, 221, 221);
+        }
+        h2{
+            font-size: 2rem;
+        }
+
+    </style>
+	
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=divice-width, intial-scaler=1.0">
+	<title> Travel/Book </title>
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+	
+	<!-- font awesome cdn link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	
+	
+	<!-- link to css -->
+	<link rel="stylesheet" href="css/style1.css">
+	
+</head>
+<body>
+
+    <!--header section-->
+	
+	<header>
+		
+		<a href="index.html" class="logo">
+		<div class="icon">
+			<i1 class="fas fa-plane"></i1>
+			<font size="6"><span>T</span>RAVEL</font>
+		</div>	
+		</a>
+		
+			
+		
+		
+		<nav class="navbar">
+			<a href="index.html">Home</a>
+			<a href="packages.html">Packages</a>
+            <a href="gallery.html">Gallery</a>
+			<a href="about.html">About</a>
+			
+		</nav>
+		
+	</header>
+
+    <br><br><br><br><br><br><br>
+<!-- book section-->
+<section class="book" id="book">
+			
+    
+    
+    <div class="row">
+        <div class="image">
+            <img src="image/book.jpg" align="center">
+        </div>
+        
+        <form action="">
+            
+            <div class="inputBox">
+                <h3>Your Full Name</h3>
+                <input type="text" placeholder="your full name">
+            </div>
+            <div class="inputBox">
+                <h3>Your Address</h3>
+                <input type="text" placeholder="your personal address">
+            </div>
+            <div class="inputBox">
+                <h3>Where to</h3>
+                <input type="text" placeholder="Place Name">
+            </div>
+            <div class="inputBox">
+                <h3>Your Email</h3>
+                <input type="text" placeholder="your email">
+            </div>
+            <div class="inputBox">
+                <h3>Room Type</h3>
+                <input type="text" placeholder="A/C or non A/C">
+            </div>
+            <div class="inputBox">
+                <h3>How many Guests</h3>
+                <input type="number" placeholder="Number of Guests">
+            </div>
+            <div class="inputBox">
+                <h3>Arrival Date</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>Leaving Date</h3>
+                <input type="date">
+            </div>
+            
+            
+            
+        </form>
+    </div>
+    <input type="submit" class="btn" onclick="openPopup()" id="booknow" value="book now">
+    <div class="popup" id="popup">
+        <img src="image1/co.png" alt="">
+        <h2>Thank You!</h2>
+        <p>Your Details have been successfilly added. Thanks your booking!</p>
+        <button type="button" onclick="closePopup"><a href="book.html">OK</a> </button>
+        
+    </div>
+
+    <script>
+        let popup = document.getElementById("popup");
+        function openPopup(){
+            popup.classList.add("open-popup");
+        }
+        function closePopup(){
+            popup.classList.remove("open-popup");
+        }
+    </script>
+    
+</section>
+
+<!-- footer section-->
+<section class="footer">
+		
+    <div class="box-container">
+    
+        <div class="box">
+            <h3>About Us</h3>
+            <p>'Organization Name' is Sri Lanka's biggest online traveling stage
+            that has changed transport travel in the nation by <br>conveying comfort to a great many Sri Lanka who travel utilizing transport. <a href="about.html">learn more...</a> </p>
+        
+            <h2>Contact : 011-23231230 / 077-2323112 <br><br>
+            
+                E-mail :<a href="#email"> travel123@gmail.com </a></h2>
+            
+        </div>
+        <div class="box">
+            <h3>Branch Locations</h3>
+            <ul>
+            <li><a href="#Colombo"> Colombo </a></li>
+            <li><a href="#Kandy"> Kandy </a></li>
+            <li><a href="#Badulla"> Badulla </a></li>
+            <li><a href="#Anuradhapura"> Anuradhapura </a></li>
+            <li><a href="#jafna"> jafna </a></li>
+            </ul>
+        </div>
+        <div class="box">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html"> home </a></li>
+                <li><a href="packages.html"> packages </a></li>
+                <li><a href="book.html"> book </a></li>
+                <li><a href="gallery.html"> gallery </a></li>
+                <li><a href="#review"> review </a></li>
+                <li><a href="about.html"> about </a></li>
+            </ul>
+        </div>
+        <div class="box">
+            <h3>Follow Us</h3>
+            <ul>
+            <li><a href="www.facebook.com"> Facebook </a></li>
+            <li><a href="www.instagram.com"> Instagram </a></li>
+            <li><a href="www.twitter.com"> Twitter </a></li>
+            <li><a href="www.tiktok.com"> Tiktok </a></li>
+            <li><a href="#viber"> Viber </a></li>
+            </ul>
+        </div>
+        
+    </div>
+    
+
+    <h1 class="credit"> Created by <span> Mr. Shalintha </span> | all rights reserved! | </h1>
+    
+</section>
+	
+</body>
+</html>
