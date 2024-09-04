@@ -1,3 +1,5 @@
+![Travel Web](image/HOME1.mp4)
+
 # 🌍 Travel-web
 
 Welcome to **Travel-web**! This web-based application is designed to provide users with an engaging platform for exploring travel destinations, planning trips, and discovering new places. Whether you're a travel enthusiast seeking new adventures or someone looking to plan a vacation, Travel-web has everything you need to make your travel experience seamless and exciting.
@@ -23,7 +25,7 @@ Welcome to **Travel-web**! This web-based application is designed to provide use
 
 ## 🔧 Installation
 
-![Travel Web](image/HOME1.mp4)
+
 
 Ready to get started? Follow these steps to set up the project locally:
 
