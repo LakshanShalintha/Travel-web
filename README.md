@@ -1,4 +1,7 @@
-![Travel Web](image/HOME1.mp4)
+
+
+![Scenic Sri Lanka](https://visitsrilankatours.com/images/scenic-sl.jpg)
+
 
 # 🌍 Travel-web
 
@@ -24,7 +27,6 @@ Welcome to **Travel-web**! This web-based application is designed to provide use
 - **Design Framework:** Bootstrap (for responsive design)
 
 ## 🔧 Installation
-
 
 
 Ready to get started? Follow these steps to set up the project locally:
