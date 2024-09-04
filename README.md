@@ -23,6 +23,8 @@ Welcome to **Travel-web**! This web-based application is designed to provide use
 
 ## 🔧 Installation
 
+![Travel Web](image/HOME1.mp4)
+
 Ready to get started? Follow these steps to set up the project locally:
 
 1. **Clone the Repository:**
